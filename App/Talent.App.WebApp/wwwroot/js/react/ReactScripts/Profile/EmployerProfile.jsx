@@ -198,7 +198,7 @@ export default class EmployeeProfile extends React.Component {
 
                                         <FormItemWrapper
                                             title='Company Contact Details'
-                                            tooltip='Enter your company contact detail'
+                                            tooltip='Enter your company contact details!'
                                         >
                                             <CompanyDetailSection
                                                 controlFunc={this.updateForComponentId}
