@@ -186,8 +186,8 @@ export default class EmployeeProfile extends React.Component {
                                 <form className="ui form">
                                     <div className="ui grid">
                                         <FormItemWrapper
-                                            title='Primary Contact Detail'
-                                            tooltip='Enter your primary contact detail'
+                                            title='Primary Contact Details'
+                                            tooltip='Enter your primary contact details'
                                         >
                                             <IndividualDetailSection
                                                 controlFunc={this.updateForComponentId}
@@ -198,7 +198,7 @@ export default class EmployeeProfile extends React.Component {
 
                                         <FormItemWrapper
                                             title='Company Contact Details'
-                                            tooltip='Enter your company contact details!'
+                                            tooltip='Enter your company contact details'
                                         >
                                             <CompanyDetailSection
                                                 controlFunc={this.updateForComponentId}
