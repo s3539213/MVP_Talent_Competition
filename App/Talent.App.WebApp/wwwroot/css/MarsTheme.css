@@ -1450,6 +1450,7 @@ div.ReactTags__selected a.ReactTags__remove {
 .description.job-summary {
     max-height: 200px;
     min-height: 200px;
+    
     overflow-y: hidden;
 }
 

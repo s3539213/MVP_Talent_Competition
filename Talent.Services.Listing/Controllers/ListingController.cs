@@ -186,7 +186,7 @@ namespace Talent.Services.Listing.Controllers
                 {
                     sortedJobs = sortedJobs.Where(x => x.ExpiryDate >= DateTime.UtcNow);
                 }
-
+chrome://vivaldi-webui/startpage?section=Speed-dials&activeSpeedDialIndex=0&background-color=#212329
                 if (!showUnexpired)
                 {
                     sortedJobs = sortedJobs.Where(x => x.ExpiryDate < DateTime.UtcNow);
