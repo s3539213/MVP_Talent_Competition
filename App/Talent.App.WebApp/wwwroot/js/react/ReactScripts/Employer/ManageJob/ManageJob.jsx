@@ -45,22 +45,22 @@ export default class ManageJob extends React.Component {
         this.setState({ loaderData });//comment this
 
         //set loaderData.isLoading to false after getting data
-        this.loadData(() =>
-           this.setState({ loaderData })
-        )
+        // this.loadData(() =>
+        //    this.setState({ loaderData })
+        // )
         
         //console.log(this.state.loaderData)
     }
 
     componentDidMount() {
-        this.init();
+        this.loadData();
     };
 
     loadData(callback) {
         var link = 'http://localhost:51689/listing/listing/getEmployerJobs';
         // var link = 'http://localhost:51689/listing/listing/getSortedEmployerJobs';
         var cookies = Cookies.get('talentAuthToken');
-
+        // your ajax call and other logic goes here
         $.ajax({
             url: link,
             headers: {
@@ -74,24 +74,25 @@ export default class ManageJob extends React.Component {
             this.setState({loadJobs: res.myJobs})
             // this.loadJobCard(this.loadJobs)
             // console.log(this.state.loadJobs)
+        },
+        error: function(res){
+            console.log(res.status)
         }
         })
-
-       // your ajax call and other logic goes here
+        this.init()
+       
     }
 
     loadJobCard(){
         // let jobs = this.state.loadJobs;
-        this.state.loadJobs.forEach(item => {
-            // console.log(item)
-            // console.log(item.title);
-            
-           
-            
-            <JobSummaryCard job={item}/>
-            
-        });
-        
+        return(
+            this.state.loadJobs.forEach(item => {
+                console.log(item);
+                // console.log(item.title);
+                <JobSummaryCard jobs={item} />
+                
+            })
+        )
         // return(<h2>yada</h2>)
         
 
@@ -118,15 +119,9 @@ export default class ManageJob extends React.Component {
                 <h2>List of Jobs</h2> 
                 {/* {this.loadJobCard()} */}
                 {/* {console.log(this.state.loadJobs)} */}
-                
-                    <JobSummaryCard jobs={this.state.loadJobs} />
-
-                
-                
-
-               
+                <JobSummaryCard jobs={this.state.loadJobs} />
                 <Pagination 
-                    
+
                     boundaryRange = {0}
                     defaultActivePage = {this.activePage}
                     ellipsisItem = {null}
