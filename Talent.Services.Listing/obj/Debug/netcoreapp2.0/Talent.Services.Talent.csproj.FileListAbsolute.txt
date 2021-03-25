@@ -59,3 +59,11 @@ C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\obj\
 C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.csproj.CopyComplete
 C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.dll
 C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.pdb
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.deps.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.runtimeconfig.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.runtimeconfig.dev.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.docker.Development.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.docker.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Tyr\Documents\codin\MVP_Talent_Competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.genruntimeconfig.cache
